@@ -1,0 +1,42 @@
+Test Data File (Binary):
+C:/Users/Dell/OneDrive/Desktop/drdo2/nist-randomness-tests/sequences/not_random5_increasing_density.txt
+
+
+Type of Test                                      	P-Value             	Conclusion
+01. Frequency (Monobit) Test                      	1.0                 	Random
+02. Frequency Test within a Block                 	0.0                 	Non-Random
+03. Runs Test                                     	0.0                 	Non-Random
+04. Test for the Longest Run of Ones in a Block   	1.089051778238815e-110	Non-Random
+05. Binary Matrix Rank Test                       	0.0                 	Non-Random
+06. Discrete Fourier Transform (Spectral) Test    	0.0                 	Non-Random
+07. Non-overlapping Template Matching Test        	0.0                 	Non-Random
+08. Overlapping Template Matching Test            	1.1480043197579425e-306	Non-Random
+09. Maurer's "Universal Statistical" Test         	0.0                 	Non-Random
+10. Linear Complexity Test                        	0.0                 	Non-Random
+11. Serial Test:
+													0.0                 	Non-Random
+													0.0                 	Non-Random
+12. Approximate Entropy Test                      	0.0                 	Non-Random
+13. Cumulative Sums Test (Forward)                	0.0                 	Non-Random
+14. Cumulative Sums Test (Backward)               	0.0                 	Non-Random
+15. Random Excursions Test:
+				State     	Chi Squared         	P-Value             	Conclusion
+				-4        	298.95238095238096  	1.6822400143578386e-62	Non-Random
+				-3        	174.19999999999996  	9.264013803930652e-36	Non-Random
+				-2        	83.11111111111111   	1.8730051409117092e-16	Non-Random
+				-1        	27.666666666666664  	4.228693250574542e-05	Non-Random
+				+1        	6.0                 	0.30621891841327875 	Random
+				+2        	2.0                 	0.8491450360846096  	Random
+				+3        	1.2                 	0.9448773650021219  	Random
+				+4        	0.8571428571428572  	0.973246337232544   	Random
+16. Random Excursions Variant Test:
+				State     	COUNTS              	P-Value             	Conclusion
+				-9.0      	10                  	0.779434528427275   	Random
+				-8.0      	10                  	0.765594483995764   	Random
+				-7.0      	10                  	0.7487740417065472  	Random
+				-6.0      	10                  	0.7277235466695502  	Random
+				-5.0      	10                  	0.7003113729368904  	Random
+				-4.0      	10                  	0.6625205835400576  	Random
+				-3.0      	10                  	0.6055766163353464  	Random
+				-2.0      	10                  	0.5049850750938458  	Random
+				-1.0      	10                  	0.24821307898992362 	Random
