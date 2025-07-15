@@ -1,0 +1,51 @@
+Test Data File (Binary):
+C:/Users/Dell/OneDrive/Desktop/drdo2/nist-randomness-tests/semi_random.txt
+
+
+Type of Test                                      	P-Value             	Conclusion
+01. Frequency (Monobit) Test                      	0.0                 	Non-Random
+02. Frequency Test within a Block                 	0.0                 	Non-Random
+03. Runs Test                                     	0.0                 	Non-Random
+04. Test for the Longest Run of Ones in a Block   	2.7642484974045884e-22	Non-Random
+05. Binary Matrix Rank Test                       	2.138219156207687e-13	Non-Random
+06. Discrete Fourier Transform (Spectral) Test    	9.961249943714423e-100	Non-Random
+07. Non-overlapping Template Matching Test        	0.915418422483985   	Random
+08. Overlapping Template Matching Test            	0.2920734664158972  	Random
+09. Maurer's "Universal Statistical" Test         	-1.0                	Non-Random
+10. Linear Complexity Test                        	3.270538383604854e-97	Non-Random
+11. Serial Test:
+													0.0                 	Non-Random
+													0.0                 	Non-Random
+12. Approximate Entropy Test                      	0.0                 	Non-Random
+13. Cumulative Sums Test (Forward)                	0.0                 	Non-Random
+14. Cumulative Sums Test (Backward)               	0.0                 	Non-Random
+15. Random Excursions Test:
+				State     	Chi Squared         	P-Value             	Conclusion
+				-4        	28.851728446480635  	2.4793357264148452e-05	Non-Random
+				-3        	14.462857142857143  	0.0129217965533314  	Random
+				-2        	14.587301587301589  	0.01227925191961656 	Random
+				-1        	1.5714285714285714  	0.9046827003530795  	Random
+				+1        	6.428571428571429   	0.2667207596069264  	Random
+				+2        	6.319223985890653   	0.27638433726342715 	Random
+				+3        	7.9952000000000005  	0.15650036346871068 	Random
+				+4        	4.880287975248408   	0.4306641688300008  	Random
+16. Random Excursions Variant Test:
+				State     	COUNTS              	P-Value             	Conclusion
+				-9.0      	22                  	0.3308985460287247  	Random
+				-8.0      	14                  	0.6290631518148918  	Random
+				-7.0      	10                  	0.8240221313018803  	Random
+				-6.0      	11                  	0.7472033251006591  	Random
+				-5.0      	10                  	0.7892680261342813  	Random
+				-4.0      	7                   	1.0                 	Random
+				-3.0      	6                   	0.9048611294504482  	Random
+				-2.0      	7                   	1.0                 	Random
+				-1.0      	6                   	0.7892680261342813  	Random
+				+1.0      	13                  	0.10880943004054569 	Random
+				+2.0      	28                  	0.0011937454448720057	Non-Random
+				+3.0      	38                  	0.00021121675803561187	Non-Random
+				+4.0      	37                  	0.0024418344202767916	Non-Random
+				+5.0      	37                  	0.007526315166457887	Non-Random
+				+6.0      	26                  	0.1257536670437418  	Random
+				+7.0      	12                  	0.710917113388619   	Random
+				+8.0      	7                   	1.0                 	Random
+				+9.0      	2                   	0.7458609174504707  	Random
